@@ -48,6 +48,11 @@ const BaseInput = styled.input`
 `
 export const TaskInput = styled(BaseInput)`
     flex: 1;
+
+//Remove a seta indicando os projetos já adicionados
+    &::-webkit-calendar-picker-indicator {
+    display: none !important;
+  }
 `
 
 
