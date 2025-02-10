@@ -1,3 +1,8 @@
+
 export function History() {
-    return <h1>Aqui</h1>
+    return (
+        <div>
+            <h1>Agora sim</h1>
+        </div>
+)
 }
